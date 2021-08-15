@@ -1,0 +1,117 @@
+ul{
+	background-color: #000000;
+	background-attachment: fixed;
+	background-position: top;
+
+	border-radius: 10px;
+	list-style: none;
+}
+
+li{
+
+	text-align: initial;
+	display: inline;
+	float: right;
+	background-color:  #669999;
+}
+a{
+	color : white;
+}
+a:hover{
+	background-color: red;
+	border-radius: 10px;
+	padding: 10px;
+}
+a:active{
+	border-color: #007acc;
+}
+a:visited{
+	color: white;
+}
+#def{
+	border: solid 10px red;
+	background-color: black;
+	padding: 10px;
+	height: 20%;
+	float: left;
+
+}
+h1{
+	text-align: center;
+	color: red;
+}
+p{
+	color: green;
+	font-size: 30px;
+	text-align: center;
+}
+#two-para{
+	border: solid 10px red;
+	background-color: black;
+}
+#three-para{
+	border: solid 10px red;
+	background-color: black;
+}
+#four-para{
+	border: solid 10px red;
+	background-color: black;
+}
+#five-para{
+	border: solid 10px red;
+	background-color: black;
+}
+h2{
+	text-align: center;
+	color: red;
+}h3{
+	text-align: center;
+	color: red;
+}h4{
+	text-align: center;
+	color: red;
+}h5{
+	text-align: center;
+	color: red;
+	font-size: 10px;
+}
+#footer{
+	background-color: green;
+	height: 200px;
+
+}
+.foo{
+	color: white;
+	text-align: center;
+	float: right;
+}
+*{
+	padding-right: 10%;
+	padding-left: 10%;
+}
+#aside{
+	width: 200px; 
+	height: 200px;
+	background-color: black;
+	color: white;
+
+
+}
+#summary{
+	color: green;
+}
+#details{
+	color : white;
+}
+body{
+	margin:0 auto;
+	clear: both;
+
+}
+/* --------------------CSS3 For Mobile -------------------*/
+@media screen and (max-width: 400px;){
+ .body{
+ 	width: 90%;
+	
+}
+}
